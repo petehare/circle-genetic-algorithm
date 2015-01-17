@@ -1,0 +1,408 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D5ADA2621A631702003905B4 /* Algorithm.m in Sources */ = {isa = PBXBuildFile; fileRef = D547E9EA1A62039300E1746B /* Algorithm.m */; };
+		D5ADA2631A631702003905B4 /* AlgorithmResult.m in Sources */ = {isa = PBXBuildFile; fileRef = D547E9F51A62100D00E1746B /* AlgorithmResult.m */; };
+		D5ADA2641A631702003905B4 /* LargestCircleChromosome.m in Sources */ = {isa = PBXBuildFile; fileRef = D547E9ED1A62046100E1746B /* LargestCircleChromosome.m */; };
+		D5ADA2651A631702003905B4 /* NSArray+RHObjectAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D547E9F81A6228FE00E1746B /* NSArray+RHObjectAdditions.m */; };
+		D5ADA2691A6323DC003905B4 /* Board.m in Sources */ = {isa = PBXBuildFile; fileRef = D5ADA2681A6323DC003905B4 /* Board.m */; };
+		D5ADA26C1A632493003905B4 /* Circle.m in Sources */ = {isa = PBXBuildFile; fileRef = D5ADA26B1A632493003905B4 /* Circle.m */; };
+		D5ADA2721A6327B4003905B4 /* BoardLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = D5ADA2711A6327B4003905B4 /* BoardLayer.m */; };
+		D5ADA2741A6327DD003905B4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5ADA2731A6327DD003905B4 /* CoreGraphics.framework */; };
+		D5ADA2761A632835003905B4 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5ADA2751A632835003905B4 /* QuartzCore.framework */; };
+		D5DEB69B1A631353001730E6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D5DEB69A1A631353001730E6 /* AppDelegate.m */; };
+		D5DEB69D1A631353001730E6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D5DEB69C1A631353001730E6 /* main.m */; };
+		D5DEB6A01A631353001730E6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5DEB69F1A631353001730E6 /* ViewController.m */; };
+		D5DEB6A21A631353001730E6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5DEB6A11A631353001730E6 /* Images.xcassets */; };
+		D5DEB6A51A631354001730E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5DEB6A31A631354001730E6 /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D547E9E91A62039300E1746B /* Algorithm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Algorithm.h; sourceTree = "<group>"; };
+		D547E9EA1A62039300E1746B /* Algorithm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Algorithm.m; sourceTree = "<group>"; };
+		D547E9EC1A62046100E1746B /* LargestCircleChromosome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LargestCircleChromosome.h; sourceTree = "<group>"; };
+		D547E9ED1A62046100E1746B /* LargestCircleChromosome.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LargestCircleChromosome.m; sourceTree = "<group>"; };
+		D547E9EF1A6204F900E1746B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D547E9F41A62100D00E1746B /* AlgorithmResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlgorithmResult.h; sourceTree = "<group>"; };
+		D547E9F51A62100D00E1746B /* AlgorithmResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlgorithmResult.m; sourceTree = "<group>"; };
+		D547E9F71A6228FE00E1746B /* NSArray+RHObjectAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+RHObjectAdditions.h"; sourceTree = "<group>"; };
+		D547E9F81A6228FE00E1746B /* NSArray+RHObjectAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+RHObjectAdditions.m"; sourceTree = "<group>"; };
+		D5ADA2671A6323DC003905B4 /* Board.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Board.h; sourceTree = "<group>"; };
+		D5ADA2681A6323DC003905B4 /* Board.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Board.m; sourceTree = "<group>"; };
+		D5ADA26A1A632493003905B4 /* Circle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Circle.h; sourceTree = "<group>"; };
+		D5ADA26B1A632493003905B4 /* Circle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Circle.m; sourceTree = "<group>"; };
+		D5ADA2701A6327B4003905B4 /* BoardLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BoardLayer.h; sourceTree = "<group>"; };
+		D5ADA2711A6327B4003905B4 /* BoardLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BoardLayer.m; sourceTree = "<group>"; };
+		D5ADA2731A6327DD003905B4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		D5ADA2751A632835003905B4 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		D5DEB6951A631353001730E6 /* GeneticAlgorithmsMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeneticAlgorithmsMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5DEB6981A631353001730E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5DEB6991A631353001730E6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D5DEB69A1A631353001730E6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D5DEB69C1A631353001730E6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D5DEB69E1A631353001730E6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D5DEB69F1A631353001730E6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D5DEB6A11A631353001730E6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D5DEB6A41A631354001730E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D5DEB6921A631353001730E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5ADA2761A632835003905B4 /* QuartzCore.framework in Frameworks */,
+				D5ADA2741A6327DD003905B4 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D547E9B71A62030400E1746B = {
+			isa = PBXGroup;
+			children = (
+				D5DEB6961A631353001730E6 /* GeneticAlgorithmsMac */,
+				D5DEB6B81A631374001730E6 /* Common */,
+				D547E9F11A62052600E1746B /* Frameworks */,
+				D547E9C11A62030400E1746B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D547E9C11A62030400E1746B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D5DEB6951A631353001730E6 /* GeneticAlgorithmsMac.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D547E9F11A62052600E1746B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D5ADA2751A632835003905B4 /* QuartzCore.framework */,
+				D5ADA2731A6327DD003905B4 /* CoreGraphics.framework */,
+				D547E9EF1A6204F900E1746B /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D547E9FA1A62290100E1746B /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				D547E9F71A6228FE00E1746B /* NSArray+RHObjectAdditions.h */,
+				D547E9F81A6228FE00E1746B /* NSArray+RHObjectAdditions.m */,
+			);
+			name = Category;
+			path = GeneticAlgorithms;
+			sourceTree = "<group>";
+		};
+		D5ADA26D1A6324C7003905B4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D5ADA2671A6323DC003905B4 /* Board.h */,
+				D5ADA2681A6323DC003905B4 /* Board.m */,
+				D5ADA26A1A632493003905B4 /* Circle.h */,
+				D5ADA26B1A632493003905B4 /* Circle.m */,
+			);
+			name = Model;
+			path = GeneticAlgorithms;
+			sourceTree = "<group>";
+		};
+		D5ADA26F1A6327A5003905B4 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				D5ADA2701A6327B4003905B4 /* BoardLayer.h */,
+				D5ADA2711A6327B4003905B4 /* BoardLayer.m */,
+			);
+			name = ViewModel;
+			sourceTree = "<group>";
+		};
+		D5DEB68D1A6312CA001730E6 /* Algorithm */ = {
+			isa = PBXGroup;
+			children = (
+				D547E9E91A62039300E1746B /* Algorithm.h */,
+				D547E9EA1A62039300E1746B /* Algorithm.m */,
+				D547E9F41A62100D00E1746B /* AlgorithmResult.h */,
+				D547E9F51A62100D00E1746B /* AlgorithmResult.m */,
+				D547E9EC1A62046100E1746B /* LargestCircleChromosome.h */,
+				D547E9ED1A62046100E1746B /* LargestCircleChromosome.m */,
+			);
+			name = Algorithm;
+			path = GeneticAlgorithms;
+			sourceTree = "<group>";
+		};
+		D5DEB6961A631353001730E6 /* GeneticAlgorithmsMac */ = {
+			isa = PBXGroup;
+			children = (
+				D5DEB6991A631353001730E6 /* AppDelegate.h */,
+				D5DEB69A1A631353001730E6 /* AppDelegate.m */,
+				D5DEB69E1A631353001730E6 /* ViewController.h */,
+				D5DEB69F1A631353001730E6 /* ViewController.m */,
+				D5DEB6A11A631353001730E6 /* Images.xcassets */,
+				D5DEB6A31A631354001730E6 /* Main.storyboard */,
+				D5DEB6971A631353001730E6 /* Supporting Files */,
+			);
+			path = GeneticAlgorithmsMac;
+			sourceTree = "<group>";
+		};
+		D5DEB6971A631353001730E6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D5DEB6981A631353001730E6 /* Info.plist */,
+				D5DEB69C1A631353001730E6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D5DEB6B81A631374001730E6 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				D5ADA26F1A6327A5003905B4 /* ViewModel */,
+				D5ADA26D1A6324C7003905B4 /* Model */,
+				D5DEB68D1A6312CA001730E6 /* Algorithm */,
+				D547E9FA1A62290100E1746B /* Category */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D5DEB6941A631353001730E6 /* GeneticAlgorithmsMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5DEB6B21A631354001730E6 /* Build configuration list for PBXNativeTarget "GeneticAlgorithmsMac" */;
+			buildPhases = (
+				D5DEB6911A631353001730E6 /* Sources */,
+				D5DEB6921A631353001730E6 /* Frameworks */,
+				D5DEB6931A631353001730E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GeneticAlgorithmsMac;
+			productName = GeneticAlgorithmsMac;
+			productReference = D5DEB6951A631353001730E6 /* GeneticAlgorithmsMac.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D547E9B81A62030400E1746B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = PJHare;
+				TargetAttributes = {
+					D5DEB6941A631353001730E6 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = D547E9BB1A62030400E1746B /* Build configuration list for PBXProject "GeneticAlgorithms" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D547E9B71A62030400E1746B;
+			productRefGroup = D547E9C11A62030400E1746B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D5DEB6941A631353001730E6 /* GeneticAlgorithmsMac */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D5DEB6931A631353001730E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5DEB6A21A631353001730E6 /* Images.xcassets in Resources */,
+				D5DEB6A51A631354001730E6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D5DEB6911A631353001730E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5ADA2631A631702003905B4 /* AlgorithmResult.m in Sources */,
+				D5ADA2721A6327B4003905B4 /* BoardLayer.m in Sources */,
+				D5DEB6A01A631353001730E6 /* ViewController.m in Sources */,
+				D5ADA2691A6323DC003905B4 /* Board.m in Sources */,
+				D5ADA26C1A632493003905B4 /* Circle.m in Sources */,
+				D5ADA2621A631702003905B4 /* Algorithm.m in Sources */,
+				D5DEB69D1A631353001730E6 /* main.m in Sources */,
+				D5ADA2641A631702003905B4 /* LargestCircleChromosome.m in Sources */,
+				D5DEB69B1A631353001730E6 /* AppDelegate.m in Sources */,
+				D5ADA2651A631702003905B4 /* NSArray+RHObjectAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D5DEB6A31A631354001730E6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D5DEB6A41A631354001730E6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D547E9E11A62030500E1746B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D547E9E21A62030500E1746B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D5DEB6B31A631354001730E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GeneticAlgorithmsMac/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		D5DEB6B41A631354001730E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				INFOPLIST_FILE = GeneticAlgorithmsMac/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D547E9BB1A62030400E1746B /* Build configuration list for PBXProject "GeneticAlgorithms" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D547E9E11A62030500E1746B /* Debug */,
+				D547E9E21A62030500E1746B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5DEB6B21A631354001730E6 /* Build configuration list for PBXNativeTarget "GeneticAlgorithmsMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5DEB6B31A631354001730E6 /* Debug */,
+				D5DEB6B41A631354001730E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D547E9B81A62030400E1746B /* Project object */;
+}
